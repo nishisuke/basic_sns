@@ -161,13 +161,13 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  devise
+  devise (~> 4.4)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   mysql2 (>= 0.3.18, < 0.5)
   puma (~> 3.7)
   rails (~> 5.1.4)
-  slim-rails
+  slim-rails (~> 3.1)
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
