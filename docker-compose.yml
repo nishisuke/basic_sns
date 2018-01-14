@@ -1,0 +1,15 @@
+version: '2'
+services:
+  web:
+    build: .
+    command: bundle exec rails s
+    volumes:
+      - .:/home/rails
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+  db:
+    image: mysql:5.7.19
+    ports:
+      - "3306:3306"
